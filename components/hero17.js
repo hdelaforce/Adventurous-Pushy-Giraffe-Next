@@ -86,10 +86,6 @@ const Hero17 = (props) => {
             ></Script>
           </div>
         </div>
-        <img
-          src={props.imageSrc1}
-          alt={props.imageAlt1}
-          className="hero17-image"
         />
       </div>
       <style jsx>
@@ -186,8 +182,6 @@ Hero17.defaultProps = {
   action2: undefined,
   content1: undefined,
   action1: undefined,
-  imageSrc1: '/jpeg%20to%20png%20explosion-900w.png',
-  imageAlt1: 'image',
 }
 
 Hero17.propTypes = {
@@ -195,8 +189,6 @@ Hero17.propTypes = {
   action2: PropTypes.element,
   content1: PropTypes.element,
   action1: PropTypes.element,
-  imageSrc1: PropTypes.string,
-  imageAlt1: PropTypes.string,
 }
 
 export default Hero17

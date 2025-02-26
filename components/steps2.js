@@ -21,7 +21,7 @@ const Steps2 = (props) => {
               </p>
               <div className="steps2-actions">
                 <a
-                  href="/explosiont"
+                  href="/explosion"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="steps2-button thq-button-filled thq-button-animated"
