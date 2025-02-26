@@ -86,7 +86,6 @@ const Hero17 = (props) => {
             ></Script>
           </div>
         </div>
-        />
       </div>
       <style jsx>
         {`
