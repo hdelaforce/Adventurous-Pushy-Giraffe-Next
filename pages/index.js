@@ -41,7 +41,7 @@ const Home = (props) => {
           heading1={
             <Fragment>
               <span className="home-text13">
-                Welcome to the Hudson&apos;s Explosive Website!
+                Welcome to the Explosive Website!
               </span>
             </Fragment>
           }
