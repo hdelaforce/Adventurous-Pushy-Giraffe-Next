@@ -34,7 +34,7 @@ const CTA26 = (props) => {
                 </div>
                 <div className="cta26-actions">
                   <a
-                    href="https://boom-test"
+                    href="/explosion"
                     className="cta26-link thq-button-filled"
                   >
                     <span>

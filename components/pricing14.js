@@ -13,7 +13,7 @@ const Pricing14 = (props) => {
             <span className="pricing14-text100 thq-body-small">
               {props.content1 ?? (
                 <Fragment>
-                  <span className="pricing14-text175">
+                  <span className="pricing14-text174">
                     Choose the perfect plan for you
                   </span>
                 </Fragment>
@@ -23,14 +23,14 @@ const Pricing14 = (props) => {
               <h2 className="pricing14-text101 thq-heading-2">
                 {props.heading1 ?? (
                   <Fragment>
-                    <span className="pricing14-text172">Pricing plan</span>
+                    <span className="pricing14-text171">Pricing plan</span>
                   </Fragment>
                 )}
               </h2>
               <p className="pricing14-text102 thq-body-large">
                 {props.content2 ?? (
                   <Fragment>
-                    <span className="pricing14-text196">
+                    <span className="pricing14-text195">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       <span
                         dangerouslySetInnerHTML={{
@@ -43,19 +43,12 @@ const Pricing14 = (props) => {
               </p>
             </div>
           </div>
+          <span className="pricing14-text103 thq-body-small">Monthly</span>
           <div className="pricing14-tabs">
-            {isMonthly && (
-              <button
-                onClick={() => setIsMonthly(true)}
-                className="pricing14-button10 thq-button-filled thq-button-animated"
-              >
-                <span className="thq-body-small">Monthly</span>
-              </button>
-            )}
             {!isMonthly && (
               <button
                 onClick={() => setIsMonthly(true)}
-                className="pricing14-button11 thq-button-outline thq-button-animated"
+                className="pricing14-button1 thq-button-outline thq-button-animated"
               >
                 <span className="thq-body-small">Monthly</span>
               </button>
@@ -63,15 +56,7 @@ const Pricing14 = (props) => {
             {!isMonthly && (
               <button
                 onClick={() => setIsMonthly(false)}
-                className="pricing14-button12 thq-button-filled thq-button-animated"
-              >
-                <span className="thq-body-small">Yearly</span>
-              </button>
-            )}
-            {isMonthly && (
-              <button
-                onClick={() => setIsMonthly(false)}
-                className="pricing14-button13 thq-button-outline thq-button-animated"
+                className="pricing14-button2 thq-button-filled thq-button-animated"
               >
                 <span className="thq-body-small">Yearly</span>
               </button>
@@ -82,24 +67,24 @@ const Pricing14 = (props) => {
               <div className="pricing14-column1 thq-card">
                 <div className="pricing14-price10">
                   <div className="pricing14-price11">
-                    <p className="pricing14-text107 thq-body-large">
+                    <p className="pricing14-text106 thq-body-large">
                       {props.plan1 ?? (
                         <Fragment>
-                          <span className="pricing14-text181">Basic plan</span>
+                          <span className="pricing14-text180">Basic plan</span>
                         </Fragment>
                       )}
                     </p>
-                    <h3 className="pricing14-text108 thq-heading-3">
+                    <h3 className="pricing14-text107 thq-heading-3">
                       {props.plan1Price ?? (
                         <Fragment>
-                          <span className="pricing14-text163">$9.99/month</span>
+                          <span className="pricing14-text162">$9.99/month</span>
                         </Fragment>
                       )}
                     </h3>
                     <p className="thq-body-large">
                       {props.plan1Yearly ?? (
                         <Fragment>
-                          <span className="pricing14-text200">
+                          <span className="pricing14-text199">
                             or $200 yearly
                           </span>
                         </Fragment>
@@ -114,7 +99,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan1Feature1 ?? (
                           <Fragment>
-                            <span className="pricing14-text159">
+                            <span className="pricing14-text158">
                               Feature 1 included
                             </span>
                           </Fragment>
@@ -128,7 +113,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan1Feature2 ?? (
                           <Fragment>
-                            <span className="pricing14-text199">
+                            <span className="pricing14-text198">
                               Feature 2 included
                             </span>
                           </Fragment>
@@ -142,7 +127,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan1Feature3 ?? (
                           <Fragment>
-                            <span className="pricing14-text178">
+                            <span className="pricing14-text177">
                               Feature 3 included
                             </span>
                           </Fragment>
@@ -155,12 +140,12 @@ const Pricing14 = (props) => {
                   href="https://www.jointherealworld.com/checkout?a=qb8trnfqjj"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="pricing14-button14 thq-button-outline thq-button-animated"
+                  className="pricing14-button3 thq-button-outline thq-button-animated"
                 >
                   <span className="thq-body-small">
                     {props.plan1Action ?? (
                       <Fragment>
-                        <span className="pricing14-text173">Sign Up</span>
+                        <span className="pricing14-text172">Sign Up</span>
                       </Fragment>
                     )}
                   </span>
@@ -169,19 +154,19 @@ const Pricing14 = (props) => {
               <div className="pricing14-column2 thq-card">
                 <div className="pricing14-price12">
                   <div className="pricing14-price13">
-                    <p className="pricing14-text114 thq-body-large">
+                    <p className="pricing14-text113 thq-body-large">
                       {props.plan2 ?? (
                         <Fragment>
-                          <span className="pricing14-text171">
+                          <span className="pricing14-text170">
                             Business plan
                           </span>
                         </Fragment>
                       )}
                     </p>
-                    <h3 className="pricing14-text115 thq-heading-3">
+                    <h3 className="pricing14-text114 thq-heading-3">
                       {props.plan2Price ?? (
                         <Fragment>
-                          <span className="pricing14-text186">
+                          <span className="pricing14-text185">
                             $19.99/month
                           </span>
                         </Fragment>
@@ -190,7 +175,7 @@ const Pricing14 = (props) => {
                     <p className="thq-body-large">
                       {props.plan2Yearly ?? (
                         <Fragment>
-                          <span className="pricing14-text182">
+                          <span className="pricing14-text181">
                             or $299 yearly
                           </span>
                         </Fragment>
@@ -205,7 +190,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature1 ?? (
                           <Fragment>
-                            <span className="pricing14-text192">
+                            <span className="pricing14-text191">
                               Feature 1 included
                             </span>
                           </Fragment>
@@ -219,7 +204,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature2 ?? (
                           <Fragment>
-                            <span className="pricing14-text202">
+                            <span className="pricing14-text201">
                               Feature 2 included
                             </span>
                           </Fragment>
@@ -233,7 +218,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature3 ?? (
                           <Fragment>
-                            <span className="pricing14-text167">
+                            <span className="pricing14-text166">
                               Feature 3 included
                             </span>
                           </Fragment>
@@ -247,7 +232,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature4 ?? (
                           <Fragment>
-                            <span className="pricing14-text162">
+                            <span className="pricing14-text161">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -260,12 +245,12 @@ const Pricing14 = (props) => {
                   href="https://www.jointherealworld.com/checkout?a=qb8trnfqjj"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="pricing14-button15 thq-button-filled thq-button-animated"
+                  className="pricing14-button4 thq-button-filled thq-button-animated"
                 >
                   <span className="thq-body-small">
                     {props.plan2Action ?? (
                       <Fragment>
-                        <span className="pricing14-text158">Sign Up</span>
+                        <span className="pricing14-text157">Sign Up</span>
                       </Fragment>
                     )}
                   </span>
@@ -274,19 +259,19 @@ const Pricing14 = (props) => {
               <div className="pricing14-column3 thq-card">
                 <div className="pricing14-price14">
                   <div className="pricing14-price15">
-                    <p className="pricing14-text122 thq-body-large">
+                    <p className="pricing14-text121 thq-body-large">
                       {props.plan3 ?? (
                         <Fragment>
-                          <span className="pricing14-text201">
+                          <span className="pricing14-text200">
                             Enterprise plan
                           </span>
                         </Fragment>
                       )}
                     </p>
-                    <h3 className="pricing14-text123 thq-heading-3">
+                    <h3 className="pricing14-text122 thq-heading-3">
                       {props.plan3Price ?? (
                         <Fragment>
-                          <span className="pricing14-text155">
+                          <span className="pricing14-text154">
                             $29.99/month
                           </span>
                         </Fragment>
@@ -295,7 +280,7 @@ const Pricing14 = (props) => {
                     <p className="thq-body-large">
                       {props.plan3Yearly ?? (
                         <Fragment>
-                          <span className="pricing14-text193">
+                          <span className="pricing14-text192">
                             or $499 yearly
                           </span>
                         </Fragment>
@@ -310,7 +295,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature1 ?? (
                           <Fragment>
-                            <span className="pricing14-text185">
+                            <span className="pricing14-text184">
                               Feature 1 included
                             </span>
                           </Fragment>
@@ -324,7 +309,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature2 ?? (
                           <Fragment>
-                            <span className="pricing14-text165">
+                            <span className="pricing14-text164">
                               Feature 2 included
                             </span>
                           </Fragment>
@@ -338,7 +323,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature3 ?? (
                           <Fragment>
-                            <span className="pricing14-text169">
+                            <span className="pricing14-text168">
                               Feature 3 included
                             </span>
                           </Fragment>
@@ -352,7 +337,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature4 ?? (
                           <Fragment>
-                            <span className="pricing14-text204">
+                            <span className="pricing14-text203">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -366,7 +351,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature5 ?? (
                           <Fragment>
-                            <span className="pricing14-text174">
+                            <span className="pricing14-text173">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -379,12 +364,12 @@ const Pricing14 = (props) => {
                   href="https://www.jointherealworld.com/checkout?a=qb8trnfqjj"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="pricing14-button16 thq-button-filled thq-button-animated"
+                  className="pricing14-button5 thq-button-filled thq-button-animated"
                 >
                   <span className="thq-body-small">
                     {props.plan3Action ?? (
                       <Fragment>
-                        <span className="pricing14-text191">Sign Up</span>
+                        <span className="pricing14-text190">Sign Up</span>
                       </Fragment>
                     )}
                   </span>
@@ -397,24 +382,24 @@ const Pricing14 = (props) => {
               <div className="pricing14-column4 thq-card">
                 <div className="pricing14-price16">
                   <div className="pricing14-price17">
-                    <span className="pricing14-text131 thq-body-large">
+                    <span className="pricing14-text130 thq-body-large">
                       {props.plan11 ?? (
                         <Fragment>
-                          <span className="pricing14-text183">Basic plan</span>
+                          <span className="pricing14-text182">Basic plan</span>
                         </Fragment>
                       )}
                     </span>
-                    <h3 className="pricing14-text132 thq-heading-3">
+                    <h3 className="pricing14-text131 thq-heading-3">
                       {props.plan1Price1 ?? (
                         <Fragment>
-                          <span className="pricing14-text195">$200/yr</span>
+                          <span className="pricing14-text194">$200/yr</span>
                         </Fragment>
                       )}
                     </h3>
                     <span className="thq-body-large">
                       {props.plan1Yearly1 ?? (
                         <Fragment>
-                          <span className="pricing14-text190">
+                          <span className="pricing14-text189">
                             or $20 monthly
                           </span>
                         </Fragment>
@@ -429,7 +414,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan1Feature11 ?? (
                           <Fragment>
-                            <span className="pricing14-text168">
+                            <span className="pricing14-text167">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -443,7 +428,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan1Feature21 ?? (
                           <Fragment>
-                            <span className="pricing14-text198">
+                            <span className="pricing14-text197">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -457,7 +442,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan1Feature31 ?? (
                           <Fragment>
-                            <span className="pricing14-text160">
+                            <span className="pricing14-text159">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -466,11 +451,11 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button17 thq-button-outline thq-button-animated">
+                <button className="pricing14-button6 thq-button-outline thq-button-animated">
                   <span className="thq-body-small">
                     {props.plan1Action1 ?? (
                       <Fragment>
-                        <span className="pricing14-text170">Get started</span>
+                        <span className="pricing14-text169">Get started</span>
                       </Fragment>
                     )}
                   </span>
@@ -479,26 +464,26 @@ const Pricing14 = (props) => {
               <div className="pricing14-column5 thq-card">
                 <div className="pricing14-price18">
                   <div className="pricing14-price19">
-                    <span className="pricing14-text138 thq-body-large">
+                    <span className="pricing14-text137 thq-body-large">
                       {props.plan21 ?? (
                         <Fragment>
-                          <span className="pricing14-text164">
+                          <span className="pricing14-text163">
                             Business plan
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <h3 className="pricing14-text139 thq-heading-3">
+                    <h3 className="pricing14-text138 thq-heading-3">
                       {props.plan2Price1 ?? (
                         <Fragment>
-                          <span className="pricing14-text180">$299/yr</span>
+                          <span className="pricing14-text179">$299/yr</span>
                         </Fragment>
                       )}
                     </h3>
                     <span className="thq-body-large">
                       {props.plan2Yearly1 ?? (
                         <Fragment>
-                          <span className="pricing14-text157">
+                          <span className="pricing14-text156">
                             or $29 monthly
                           </span>
                         </Fragment>
@@ -513,7 +498,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature11 ?? (
                           <Fragment>
-                            <span className="pricing14-text161">
+                            <span className="pricing14-text160">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -527,7 +512,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature21 ?? (
                           <Fragment>
-                            <span className="pricing14-text203">
+                            <span className="pricing14-text202">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -541,7 +526,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature31 ?? (
                           <Fragment>
-                            <span className="pricing14-text187">
+                            <span className="pricing14-text186">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -555,7 +540,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan2Feature41 ?? (
                           <Fragment>
-                            <span className="pricing14-text184">
+                            <span className="pricing14-text183">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -564,11 +549,11 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button18 thq-button-filled thq-button-animated">
+                <button className="pricing14-button7 thq-button-filled thq-button-animated">
                   <span className="thq-body-small">
                     {props.plan2Action1 ?? (
                       <Fragment>
-                        <span className="pricing14-text179">Get started</span>
+                        <span className="pricing14-text178">Get started</span>
                       </Fragment>
                     )}
                   </span>
@@ -577,26 +562,26 @@ const Pricing14 = (props) => {
               <div className="pricing14-column6 thq-card">
                 <div className="pricing14-price20">
                   <div className="pricing14-price21">
-                    <span className="pricing14-text146 thq-body-large">
+                    <span className="pricing14-text145 thq-body-large">
                       {props.plan31 ?? (
                         <Fragment>
-                          <span className="pricing14-text166">
+                          <span className="pricing14-text165">
                             Enterprise plan
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <h3 className="pricing14-text147 thq-heading-3">
+                    <h3 className="pricing14-text146 thq-heading-3">
                       {props.plan3Price1 ?? (
                         <Fragment>
-                          <span className="pricing14-text176">$499/yr</span>
+                          <span className="pricing14-text175">$499/yr</span>
                         </Fragment>
                       )}
                     </h3>
                     <span className="thq-body-large">
                       {props.plan3Yearly1 ?? (
                         <Fragment>
-                          <span className="pricing14-text177">
+                          <span className="pricing14-text176">
                             or $49 monthly
                           </span>
                         </Fragment>
@@ -611,7 +596,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature11 ?? (
                           <Fragment>
-                            <span className="pricing14-text194">
+                            <span className="pricing14-text193">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -625,7 +610,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature21 ?? (
                           <Fragment>
-                            <span className="pricing14-text197">
+                            <span className="pricing14-text196">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -639,7 +624,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature31 ?? (
                           <Fragment>
-                            <span className="pricing14-text205">
+                            <span className="pricing14-text204">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -653,7 +638,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature41 ?? (
                           <Fragment>
-                            <span className="pricing14-text188">
+                            <span className="pricing14-text187">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -667,7 +652,7 @@ const Pricing14 = (props) => {
                       <span className="thq-body-small">
                         {props.plan3Feature51 ?? (
                           <Fragment>
-                            <span className="pricing14-text189">
+                            <span className="pricing14-text188">
                               Feature text goes here
                             </span>
                           </Fragment>
@@ -676,11 +661,11 @@ const Pricing14 = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="pricing14-button19 thq-button-filled thq-button-animated">
+                <button className="pricing14-button8 thq-button-filled thq-button-animated">
                   <span className="thq-body-small">
                     {props.plan3Action1 ?? (
                       <Fragment>
-                        <span className="pricing14-text156">Get started</span>
+                        <span className="pricing14-text155">Get started</span>
                       </Fragment>
                     )}
                   </span>
@@ -736,21 +721,14 @@ const Pricing14 = (props) => {
           .pricing14-text102 {
             text-align: center;
           }
+          .pricing14-text103 {
+            font-size: 50px;
+          }
           .pricing14-tabs {
             display: flex;
             align-items: flex-start;
           }
-          .pricing14-button10 {
-            gap: var(--dl-space-space-halfunit);
-            color: var(--dl-color-theme-neutral-light);
-            width: 120px;
-            height: 60px;
-            border-top-left-radius: var(--dl-radius-radius-buttonradius);
-            border-top-right-radius: 0;
-            border-bottom-left-radius: var(--dl-radius-radius-buttonradius);
-            border-bottom-right-radius: 0;
-          }
-          .pricing14-button11 {
+          .pricing14-button1 {
             gap: var(--dl-space-space-halfunit);
             width: 120px;
             height: 60px;
@@ -760,21 +738,11 @@ const Pricing14 = (props) => {
             border-bottom-left-radius: var(--dl-radius-radius-buttonradius);
             border-bottom-right-radius: 0;
           }
-          .pricing14-button12 {
+          .pricing14-button2 {
             gap: var(--dl-space-space-halfunit);
             color: var(--dl-color-theme-neutral-light);
             width: 120px;
             height: 60px;
-            border-top-left-radius: 0;
-            border-top-right-radius: var(--dl-radius-radius-buttonradius);
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: var(--dl-radius-radius-buttonradius);
-          }
-          .pricing14-button13 {
-            gap: var(--dl-space-space-halfunit);
-            width: 120px;
-            height: 60px;
-            border-style: solid;
             border-top-left-radius: 0;
             border-top-right-radius: var(--dl-radius-radius-buttonradius);
             border-bottom-left-radius: 0;
@@ -822,11 +790,11 @@ const Pricing14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .pricing14-text107 {
+          .pricing14-text106 {
             font-style: normal;
             font-weight: 600;
           }
-          .pricing14-text108 {
+          .pricing14-text107 {
             font-size: 48px;
           }
           .pricing14-list1 {
@@ -857,7 +825,7 @@ const Pricing14 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .pricing14-button14 {
+          .pricing14-button3 {
             width: 100%;
             text-decoration: none;
           }
@@ -890,11 +858,11 @@ const Pricing14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .pricing14-text114 {
+          .pricing14-text113 {
             font-style: normal;
             font-weight: 600;
           }
-          .pricing14-text115 {
+          .pricing14-text114 {
             font-size: 48px;
           }
           .pricing14-list2 {
@@ -932,7 +900,7 @@ const Pricing14 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .pricing14-button15 {
+          .pricing14-button4 {
             width: 100%;
             text-decoration: none;
           }
@@ -964,11 +932,11 @@ const Pricing14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .pricing14-text122 {
+          .pricing14-text121 {
             font-style: normal;
             font-weight: 600;
           }
-          .pricing14-text123 {
+          .pricing14-text122 {
             font-size: 48px;
           }
           .pricing14-list3 {
@@ -1013,7 +981,7 @@ const Pricing14 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .pricing14-button16 {
+          .pricing14-button5 {
             width: 100%;
             text-decoration: none;
           }
@@ -1059,11 +1027,11 @@ const Pricing14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .pricing14-text131 {
+          .pricing14-text130 {
             font-style: normal;
             font-weight: 600;
           }
-          .pricing14-text132 {
+          .pricing14-text131 {
             font-size: 48px;
           }
           .pricing14-list4 {
@@ -1094,7 +1062,7 @@ const Pricing14 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .pricing14-button17 {
+          .pricing14-button6 {
             width: 100%;
           }
           .pricing14-column5 {
@@ -1126,11 +1094,11 @@ const Pricing14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .pricing14-text138 {
+          .pricing14-text137 {
             font-style: normal;
             font-weight: 600;
           }
-          .pricing14-text139 {
+          .pricing14-text138 {
             font-size: 48px;
           }
           .pricing14-list5 {
@@ -1168,7 +1136,7 @@ const Pricing14 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .pricing14-button18 {
+          .pricing14-button7 {
             width: 100%;
           }
           .pricing14-column6 {
@@ -1199,11 +1167,11 @@ const Pricing14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .pricing14-text146 {
+          .pricing14-text145 {
             font-style: normal;
             font-weight: 600;
           }
-          .pricing14-text147 {
+          .pricing14-text146 {
             font-size: 48px;
           }
           .pricing14-list6 {
@@ -1248,8 +1216,11 @@ const Pricing14 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .pricing14-button19 {
+          .pricing14-button8 {
             width: 100%;
+          }
+          .pricing14-text154 {
+            display: inline-block;
           }
           .pricing14-text155 {
             display: inline-block;
@@ -1399,9 +1370,6 @@ const Pricing14 = (props) => {
             display: inline-block;
           }
           .pricing14-text204 {
-            display: inline-block;
-          }
-          .pricing14-text205 {
             display: inline-block;
           }
           @media (max-width: 991px) {
