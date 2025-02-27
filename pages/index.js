@@ -16,7 +16,7 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Adventurous Pushy Giraffe</title>
+          <title>Hudson's Explosion</title>
           <meta property="og:title" content="Adventurous Pushy Giraffe" />
         </Head>
         <Hero17
