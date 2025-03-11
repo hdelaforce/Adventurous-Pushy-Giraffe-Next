@@ -12,7 +12,7 @@ export default function ExplosionPage() {
         <div className="flex items-center justify-center h-screen bg-black">
             {showExplosion ? (
                 <img
-                    src="/explosion.gif"
+                    src="/explosion1.gif"
                     alt="Explosion"
                     width={500}
                     height={500}
